@@ -1,0 +1,91 @@
+#map {
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+}
+
+.leaflet-popup-content p {
+    margin: .2em;
+}
+
+
+.sequence-control-container {
+    width: 400px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 40px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.range-slider {
+    width: 300px;
+}
+
+
+.step {
+	width: 40px;
+}
+
+.step img {
+	width: 100%;
+  height: auto;
+}
+
+
+#forward {
+    float: right;
+}
+
+#backward {
+    float: left;
+}
+
+.legend-control-container {
+    width: 250px;
+    height: 100px;
+    font-size: 14px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.legend-control-container p{
+     margin: .2em;
+}
+
+.text-container {
+    width: 300px;
+    height: 185px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Times New Roman", Times, serif;
+    border: solid gray 1px;
+    border-radius: 10px;
+}
+
+.titletext {
+    width: 550px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 2px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    border: solid gray 1px;
+    border-radius: 10px;
+
+}
+
+.citestext {
+    width: 580px;
+    height: 150px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 5px;
+    font-size: 12px;
+    border: solid gray 1px;
+}

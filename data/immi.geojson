@@ -1,0 +1,649 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Mexico",
+        "imm_2009": 164920,
+        "imm_2010": 139120,
+        "imm_2011": 143446,
+        "imm_2012": 146406,
+        "imm_2013": 135028,
+        "imm_2014": 134052,
+        "imm_2015": 158619,
+        "imm_2016": 174534,
+        "imm_2017": 170581,
+        "imm_2018": 161858
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.289691,
+          23.920061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Cuba",
+        "imm_2009": 38954,
+        "imm_2010": 33573,
+        "imm_2011": 36452,
+        "imm_2012": 32820,
+        "imm_2013": 32219,
+        "imm_2014": 46679,
+        "imm_2015": 54396,
+        "imm_2016": 66516,
+        "imm_2017": 65028,
+        "imm_2018": 76486
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.967722,
+          21.329612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "DominicanRep.",
+        "imm_2009": 49414,
+        "imm_2010": 53870,
+        "imm_2011": 46109,
+        "imm_2012": 41566,
+        "imm_2013": 41311,
+        "imm_2014": 44577,
+        "imm_2015": 50610,
+        "imm_2016": 61161,
+        "imm_2017": 58520,
+        "imm_2018": 57413
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.947598,
+          19.165957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "ElSalvador",
+        "imm_2009": 19909,
+        "imm_2010": 18806,
+        "imm_2011": 18667,
+        "imm_2012": 16256,
+        "imm_2013": 18260,
+        "imm_2014": 19273,
+        "imm_2015": 19487,
+        "imm_2016": 23449,
+        "imm_2017": 25109,
+        "imm_2018": 28326
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.27004,
+          13.66845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Haiti",
+        "imm_2009": 24280,
+        "imm_2010": 22582,
+        "imm_2011": 22111,
+        "imm_2012": 22818,
+        "imm_2013": 20351,
+        "imm_2014": 15274,
+        "imm_2015": 16967,
+        "imm_2016": 23584,
+        "imm_2017": 21824,
+        "imm_2018": 21360
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.294701,
+          19.251299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Jamaica",
+        "imm_2009": 21783,
+        "imm_2010": 19825,
+        "imm_2011": 19662,
+        "imm_2012": 20705,
+        "imm_2013": 19400,
+        "imm_2014": 19026,
+        "imm_2015": 17642,
+        "imm_2016": 23350,
+        "imm_2017": 21905,
+        "imm_2018": 20347
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.318767,
+          18.137123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Colombia",
+        "imm_2009": 27849,
+        "imm_2010": 22406,
+        "imm_2011": 22635,
+        "imm_2012": 20931,
+        "imm_2013": 21131,
+        "imm_2014": 18175,
+        "imm_2015": 17316,
+        "imm_2016": 18610,
+        "imm_2017": 17956,
+        "imm_2018": 17545
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.166783,
+          3.420497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Guatemala",
+        "imm_2009": 12187,
+        "imm_2010": 10467,
+        "imm_2011": 11092,
+        "imm_2012": 10341,
+        "imm_2013": 10224,
+        "imm_2014": 10238,
+        "imm_2015": 11773,
+        "imm_2016": 13002,
+        "imm_2017": 13198,
+        "imm_2018": 15638
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.522408,
+          14.989397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Brazil",
+        "imm_2009": 14701,
+        "imm_2010": 12258,
+        "imm_2011": 11763,
+        "imm_2012": 11441,
+        "imm_2013": 11033,
+        "imm_2014": 10429,
+        "imm_2015": 11424,
+        "imm_2016": 13812,
+        "imm_2017": 14989,
+        "imm_2018": 15394
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.542449,
+          -11.928923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Honduras",
+        "imm_2009": 6404,
+        "imm_2010": 6448,
+        "imm_2011": 6133,
+        "imm_2012": 6884,
+        "imm_2013": 8898,
+        "imm_2014": 8156,
+        "imm_2015": 9274,
+        "imm_2016": 13302,
+        "imm_2017": 11387,
+        "imm_2018": 13794
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.920196,
+          14.762778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Venezuela",
+        "imm_2009": 11154,
+        "imm_2010": 9409,
+        "imm_2011": 9183,
+        "imm_2012": 9387,
+        "imm_2013": 9572,
+        "imm_2014": 8427,
+        "imm_2015": 9144,
+        "imm_2016": 10772,
+        "imm_2017": 11809,
+        "imm_2018": 11762
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.568705,
+          7.18646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Ecuador",
+        "imm_2009": 12128,
+        "imm_2010": 11492,
+        "imm_2011": 11103,
+        "imm_2012": 9342,
+        "imm_2013": 10591,
+        "imm_2014": 10960,
+        "imm_2015": 10187,
+        "imm_2016": 10757,
+        "imm_2017": 10594,
+        "imm_2018": 11472
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.322784,
+          -1.241567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Canada",
+        "imm_2009": 16140,
+        "imm_2010": 13328,
+        "imm_2011": 12800,
+        "imm_2012": 12932,
+        "imm_2013": 13181,
+        "imm_2014": 11586,
+        "imm_2015": 12673,
+        "imm_2016": 12793,
+        "imm_2017": 11484,
+        "imm_2018": 9898
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.384858,
+          58.33747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Peru",
+        "imm_2009": 16957,
+        "imm_2010": 14247,
+        "imm_2011": 14064,
+        "imm_2012": 12609,
+        "imm_2013": 12564,
+        "imm_2014": 10606,
+        "imm_2015": 10148,
+        "imm_2016": 10940,
+        "imm_2017": 10115,
+        "imm_2018": 9878
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.876651,
+          -12.98078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Guyana",
+        "imm_2009": 6670,
+        "imm_2010": 6749,
+        "imm_2011": 6599,
+        "imm_2012": 5683,
+        "imm_2013": 5897,
+        "imm_2014": 6267,
+        "imm_2015": 5543,
+        "imm_2016": 5771,
+        "imm_2017": 5468,
+        "imm_2018": 5165
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.912352,
+          5.121996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Argentina",
+        "imm_2009": 5780,
+        "imm_2010": 4399,
+        "imm_2011": 4473,
+        "imm_2012": 4359,
+        "imm_2013": 4372,
+        "imm_2014": 3874,
+        "imm_2015": 3730,
+        "imm_2016": 4091,
+        "imm_2017": 3482,
+        "imm_2018": 3080
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.168459,
+          -33.528049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Nicaragua",
+        "imm_2009": 4137,
+        "imm_2010": 3565,
+        "imm_2011": 3401,
+        "imm_2012": 3046,
+        "imm_2013": 3048,
+        "imm_2014": 2886,
+        "imm_2015": 3324,
+        "imm_2016": 3486,
+        "imm_2017": 3072,
+        "imm_2018": 3061
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.039545,
+          12.793313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Trinidad&Tobago",
+        "imm_2009": 6256,
+        "imm_2010": 5435,
+        "imm_2011": 5023,
+        "imm_2012": 5214,
+        "imm_2013": 4724,
+        "imm_2014": 3988,
+        "imm_2015": 3212,
+        "imm_2016": 3469,
+        "imm_2017": 3100,
+        "imm_2018": 2758
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.264793,
+          10.435364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "CostaRica",
+        "imm_2009": 2384,
+        "imm_2010": 2164,
+        "imm_2011": 2135,
+        "imm_2012": 2020,
+        "imm_2013": 2114,
+        "imm_2014": 1966,
+        "imm_2015": 2029,
+        "imm_2016": 2224,
+        "imm_2017": 2184,
+        "imm_2018": 2171
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.028584,
+          10.068183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Bolivia",
+        "imm_2009": 2837,
+        "imm_2010": 2253,
+        "imm_2011": 2173,
+        "imm_2012": 1948,
+        "imm_2013": 2071,
+        "imm_2014": 1719,
+        "imm_2015": 1626,
+        "imm_2016": 1595,
+        "imm_2017": 1510,
+        "imm_2018": 1523
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.661928,
+          -16.640652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Chile",
+        "imm_2009": 2250,
+        "imm_2010": 1950,
+        "imm_2011": 1853,
+        "imm_2012": 1673,
+        "imm_2013": 1736,
+        "imm_2014": 1581,
+        "imm_2015": 1596,
+        "imm_2016": 1698,
+        "imm_2017": 1625,
+        "imm_2018": 1519
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.288079,
+          -38.165295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Uruguay",
+        "imm_2009": 1775,
+        "imm_2010": 1331,
+        "imm_2011": 1553,
+        "imm_2012": 1374,
+        "imm_2013": 1352,
+        "imm_2014": 1128,
+        "imm_2015": 1078,
+        "imm_2016": 972,
+        "imm_2017": 1001,
+        "imm_2018": 960
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.01682,
+          -32.838882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Panama",
+        "imm_2009": 1806,
+        "imm_2010": 1536,
+        "imm_2011": 1374,
+        "imm_2012": 1281,
+        "imm_2013": 1234,
+        "imm_2014": 1095,
+        "imm_2015": 1052,
+        "imm_2016": 1029,
+        "imm_2017": 889,
+        "imm_2018": 897
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.338454,
+          8.72491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Bahamas",
+        "imm_2009": 751,
+        "imm_2010": 652,
+        "imm_2011": 668,
+        "imm_2012": 619,
+        "imm_2013": 630,
+        "imm_2014": 654,
+        "imm_2015": 725,
+        "imm_2016": 656,
+        "imm_2017": 725,
+        "imm_2018": 759
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.018505,
+          24.669637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "St.Lucia",
+        "imm_2009": 1027,
+        "imm_2010": 872,
+        "imm_2011": 785,
+        "imm_2012": 919,
+        "imm_2013": 853,
+        "imm_2014": 844,
+        "imm_2015": 739,
+        "imm_2016": 777,
+        "imm_2017": 777,
+        "imm_2018": 696
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.974929,
+          13.896235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Belize",
+        "imm_2009": 1041,
+        "imm_2010": 965,
+        "imm_2011": 905,
+        "imm_2012": 847,
+        "imm_2013": 946,
+        "imm_2014": 789,
+        "imm_2015": 772,
+        "imm_2016": 851,
+        "imm_2017": 746,
+        "imm_2018": 632
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.714488,
+          17.206637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Grenada",
+        "imm_2009": 748,
+        "imm_2010": 664,
+        "imm_2011": 579,
+        "imm_2012": 671,
+        "imm_2013": 687,
+        "imm_2014": 633,
+        "imm_2015": 525,
+        "imm_2016": 585,
+        "imm_2017": 544,
+        "imm_2018": 501
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.688501,
+          12.11396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Country": "Dominica",
+        "imm_2009": 484,
+        "imm_2010": 366,
+        "imm_2011": 287,
+        "imm_2012": 125,
+        "imm_2013": 244,
+        "imm_2014": 345,
+        "imm_2015": 229,
+        "imm_2016": 298,
+        "imm_2017": 510,
+        "imm_2018": 492
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.356841,
+          15.460196
+        ]
+      }
+    }
+  ]
+}
