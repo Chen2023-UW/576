@@ -1,0 +1,189 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Canada",
+          "val_1": 87.6,
+          "val_2": 141.5,
+          "val_3": 221,
+          "val_4": 3995,
+          "val_5": 19819,
+          "val_6": 59785,
+          "val_7": 3218,
+          "val_8": 21514,
+          "val_9": 17489,
+          "val_10": 3649
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.384858,
+            58.33747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Mexico",
+          "val_1": 21.7,
+          "val_2": 1.66,
+          "val_3": 6.45,
+          "val_4": 4184,
+          "val_5": 41174,
+          "val_6": 83016,
+          "val_7": 6398,
+          "val_8": 17565,
+          "val_9": 19861,
+          "val_10": 5295
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -102.289691,
+            23.920061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "China",
+          "val_1": 652.1,
+          "val_2": 0.13,
+          "val_3": 46.1,
+          "val_4": 11471,
+          "val_5": 13156,
+          "val_6": 24628,
+          "val_7": 2850,
+          "val_8": 12461,
+          "val_9": 4810,
+          "val_10": 1721
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.431983,
+            32.523743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "United Kingdom",
+          "val_1": 4.67,
+          "val_2": 0.31,
+          "val_3": 26.6,
+          "val_4": 6971,
+          "val_5": 4298,
+          "val_6": 11090,
+          "val_7": 992,
+          "val_8": 6289,
+          "val_9": 1929,
+          "val_10": 392
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.247349,
+            52.418788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Japan",
+          "val_1": 562.4,
+          "val_2": 15.1,
+          "val_3": 333,
+          "val_4": 7495,
+          "val_5": 5230,
+          "val_6": 12725,
+          "val_7": 3006,
+          "val_8": 11495,
+          "val_9": 1938,
+          "val_10": 412
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.441899,
+            36.13793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Germany",
+          "val_1": 52.7,
+          "val_2": 1.30,
+          "val_3": 156,
+          "val_4": 8591,
+          "val_5": 6210,
+          "val_6": 14801,
+          "val_7": 1386,
+          "val_8": 9831,
+          "val_9": 1964,
+          "val_10": 357
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.62743,
+            51.196755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "South Korea",
+          "val_1": 233.0,
+          "val_2": 1.39,
+          "val_3": 201,
+          "val_4": 5099,
+          "val_5": 5678,
+          "val_6": 10778,
+          "val_7": 2506,
+          "val_8": 6901,
+          "val_9": 2223,
+          "val_10": 366
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            128.123986,
+            36.382192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "France",
+          "val_1": 68.5,
+          "val_2": 3.91,
+          "val_3": 78.5,
+          "val_4": 4506,
+          "val_5": 2885,
+          "val_6": 7391,
+          "val_7": 1776,
+          "val_8": 4527,
+          "val_9": 1571,
+          "val_10": 155
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.549047,
+            46.698481
+          ]
+        }
+      }
+    ]
+  }
