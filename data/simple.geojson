@@ -1,0 +1,157 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Canada",
+          "val_9": 17489,
+          "val_8": 21514,
+          "val_6": 59785,
+          "val_5": 19819,
+          "val_4": 3995,
+          "val_2": 87.6
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.384858,
+            58.33747
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Mexico",
+          "val_9": 19861,
+          "val_8": 17565,
+          "val_6": 83016,
+          "val_5": 41174,
+          "val_4": 4184,
+          "val_2": 21.7
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            102.289691,
+            23.920061
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "China",
+          "val_9": 4810,
+          "val_8": 12461,
+          "val_6": 24628,
+          "val_5": 13156,
+          "val_4": 11471,
+          "val_2": 652.1
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            106.431983,
+            32.523743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "United Kingdom",
+          "val_9": 1929,
+          "val_8": 6289,
+          "val_6": 11090,
+          "val_5": 4298,
+          "val_4": 6971,
+          "val_2": 4.67
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.247349,
+            52.418788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Japan",
+          "val_9": 1938,
+          "val_8": 11495,
+          "val_6": 12725,
+          "val_5": 5230,
+          "val_4": 7495,
+          "val_2": 562.4
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            138.441899,
+            36.13793
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "Germany",
+          "val_9": 1964,
+          "val_8": 9831,
+          "val_6": 14801,
+          "val_5": 6210,
+          "val_4": 8591,
+          "val_2": 52.7
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            9.62743,
+            51.196755
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "South Korea",
+          "val_9": 2223,
+          "val_8": 6901,
+          "val_6": 10778,
+          "val_5": 5678,
+          "val_4": 5099,
+          "val_2": "233.0"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            128.123986,
+            36.382192
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Country": "France",
+          "val_9": 1571,
+          "val_8": 4527,
+          "val_6": 7391,
+          "val_5": 2885,
+          "val_4": 4506,
+          "val_2": 68.5
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.549047,
+            46.698481
+          ]
+        }
+      }
+    ]
+  }
