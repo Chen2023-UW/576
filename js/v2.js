@@ -3,8 +3,8 @@
 var map;
 var dataStats = {};
 var names = {
-    1: "Fresh Fish",
-    2: "Frozen Fish",
+    1: "Frozen Fish",
+    2: "Fresh Fish",
     3: "Fish Fillet",
     4: "Machinery and Mechanical Appliances",
     5: "Electrical Machinery and Electrics",
@@ -14,12 +14,16 @@ var names = {
     9: "Metal",
     10: "Textiles"
 };
+
+
+layername = {"export" : "export.geojson", "import" : "import.geojson"}
+
   
 function createMap() {
   //create the map
   map = L.map("map", {
-    center: [0, 0],
-    zoom: 2.25,
+    center: [30, 0],
+    zoom: 2.4,
   });
 
   //add OSM base tilelayer
@@ -61,7 +65,7 @@ function calcStats(data) {
 //calculate the radius of each proportional symbol
 function calcPropRadius(attValue) {
   //constant factor adjusts symbol sizes evenly
-  var minRadius = 5;
+  var minRadius = 4;
   //Flannery Apperance Compensation formula
   var radius = 1.00 * Math.pow(attValue / dataStats.min, 0.2) * minRadius;
   return radius;
@@ -293,9 +297,9 @@ function createLegend(attributes) {
       for (var i = 0; i < circles.length; i++) {
         //calculate r and cy
         var radius = calcPropRadius(dataStats[circles[i]]);
-        console.log(radius);
-        var cy = 72 - radius;
-        console.log(cy);
+        //console.log(radius);
+        var cy = 60 - radius;
+        //console.log(cy);
         //circle string
         svg +=
           '<circle class="legend-circle" id="' +
@@ -335,13 +339,29 @@ function createtitle(){
     },
     onAdd: function(){
       var maptitle = L.DomUtil.create('div', 'titletext')
-      maptitle.innerHTML = 'Primary Export Destination of the US in 2018';
+      maptitle.innerHTML = 'Primary Trade Partners of the United States in 2018';
       return maptitle;
     },
   });
 
   map.addControl(new titletext());
 };
+
+function createtext(){
+  var infotext = L.Control.extend({
+    options: {
+      //position: 'topleft'
+    },
+    onAdd: function(){
+      var producttext = L.DomUtil.create('div', 'infotext')
+      producttext.innerHTML = 'Switch Products Here: ';
+      return producttext;
+    },
+  });
+
+  map.addControl(new infotext());
+};
+
 
 function getData(map){
   //load the data
@@ -357,7 +377,55 @@ function getData(map){
           createSequenceControls(attributes);
           //createLegend(attributes);  
           createtitle();
-      })
+          createtext();
+      })  
+      .then(function(){
+        var attrName = document.getElementsByClassName('switch');
+        console.log(attrName)
+        for(let i = 0; i < attrName.length; i++){
+          attrName[i].addEventListener('click', function (){
+            var id = this.getAttribute("id");
+            for(const key of Object.keys(layername)){
+              if (id === key){
+                updateMap(layername[id], id);
+                console.log(layername[id]);
+              }
+            }
+          });
+        }
+      })       
+};
+
+function updateMap(file, mapName){
+  fetch("data/"+file)
+  .then(function(response){
+    return response.json();
+  })
+  .then(function(json){
+    var attributes = processData(json); //create an attributes array
+    minValue = calcStats(json);
+    deleteElement()
+    createPropSymbols(json, attributes);
+    createSequenceControls(attributes, mapName);
+    //createLegend(attributes, mapName);
+  })
+}
+
+function deleteElement(){
+  var sequence = document.getElementsByClassName("sequence-control-container");
+  //var legend = document.getElementsByClassName("legend-control-container");
+  var symbol = document.getElementsByClassName("leaflet-interactive");
+  
+  sequence[0].remove();
+  //legend[0].remove();
+
+  let size = symbol.length;
+
+  for (let i = 0; i < size; i++){
+    symbol[0].remove();
+ 
+  }
+
 };
 
 document.addEventListener('DOMContentLoaded',createMap);

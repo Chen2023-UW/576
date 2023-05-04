@@ -1,8 +1,26 @@
 #map {
     height: 800px;
     width: 100%;
+    z-index: 0;
     display: inline-block;
 }
+
+#data-updater {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    background-color: rgba(255,255,255,0.8);  
+    border: solid gray 1px;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.75;
+    align-items: top;
+    justify-content: top;
+    padding: 3px;
+    bottom: 130px;
+    right: 1%;
+    z-index: 2;
+}
+  
 
 .leaflet-popup-content p {
     margin: .2em;
@@ -10,6 +28,8 @@
 
 
 .sequence-control-container {
+    position: absolute;
+    bottom: 10px;
     width: 400px;
     height: 30px;
     background-color: rgba(255,255,255,0.8);
@@ -68,11 +88,14 @@
 }
 
 .titletext {
-    width: 550px;
-    height: 40px;
+    position: fixed;
+    right: 1%;
+    top: 20px;
+    width: 850px;
+    height: 55px;
     background-color: rgba(255,255,255,0.8);
     padding: 2px;
-    font-size: 24px;
+    font-size: 36px;
     text-align: center;
     font-weight: bold;
     font-family: "Times New Roman", Times, serif;
@@ -88,4 +111,55 @@
     padding: 5px;
     font-size: 12px;
     border: solid gray 1px;
+}
+
+/*button.switch {
+    position: fixed;
+    z-index: 1;
+    right: 50%;
+    bottom: 150px;
+    height: 150px;
+    width: 200px;
+
+    font-size: 24px; 
+    font-family: "Times New Roman", Times, serif;
+  }*/
+
+button#export {
+  position: fixed;
+  z-index: 1;
+  left: 1%;
+  bottom: 225px;
+  height: 45px;
+  width: 125px;
+  font-size: 24px; 
+  font-family: "Times New Roman", Times, serif;
+}
+
+button#import {
+  position: fixed;
+  z-index: 1;
+  left: 10%;
+  bottom: 225px;
+  height: 45px;
+  width: 125px;
+  font-size: 24px; 
+  font-family: "Times New Roman", Times, serif;
+}
+
+.infotext {
+    position: fixed;
+    z-index: 1;
+    left: 1%;
+    bottom: 175px;
+    width: 200px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 2px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid gray 1px;
+    border-radius: 10px;
+
 }

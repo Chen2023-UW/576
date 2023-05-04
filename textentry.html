@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Data Updater</title>
+	<style>
+		.textbox {
+			border: 1px solid black;
+			border-radius: 2px;
+			padding: 2px;
+			width: 300px;
+			height: 340px;
+			margin: 2px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1;
+		}
+
+		.textbox label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		.textbox select, .textbox input[type="number"] {
+			margin-bottom: 20px;
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid #ddd;
+			width: 100%;
+			box-sizing: border-box;
+			font-size: 16px;
+		}
+
+		.textbox button[type="submit"] {
+			padding: 10px;
+			background-color: #008cba;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+
+		.textbox button[type="submit"]:hover {
+			background-color: #006799;
+		}
+	</style>
+</head>
+<body>
+    
+	<div class="textbox">
+        <h1>Data Updater</h1>
+		<form>
+			<label for="country">Country:</label>
+			<select id="country" name="country">
+				<option value="CAN">Canada</option>
+				<option value="MEX">Mexico</option>
+				<option value="CHN">China</option>
+				<option value="JP">Japan</option>
+				<option value="KOR">South Korea</option>
+				<option value="UK">United Kingdom</option>
+				<option value="GER">Germany</option>
+				<option value="FR">France</option>
+			</select>
+			<label for="product">Product:</label>
+			<select id="product" name="product">
+				<option value="1">Frozen Fish</option>
+				<option value="2">Fresh Fish</option>
+				<option value="3">Fish Fillet</option>
+				<option value="4">Machinery and Mechanical Appliances</option>
+				<option value="5">Electrical Machinery and Electrics</option>
+				<option value="6">Machines</option>
+				<option value="7">Organic Chemicals</option>
+				<option value="8">Chemicals</option>
+				<option value="9">Metal</option>
+				<option value="10">Textiles</option>
+			</select>
+			<label for="value">Value:</label>
+			<input type="number" id="value" name="value">
+			<button type="submit" onclick="submitData()">Submit</button>
+		</form>
+	</div>
+	<script>
+		function submitData() {
+			alert("Data received");
+			location.reload();
+		}
+	</script>
+</body>
+</html>
