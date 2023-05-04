@@ -147,6 +147,8 @@ button#import {
   font-family: "Times New Roman", Times, serif;
 }
 
+
+
 .infotext {
     position: fixed;
     z-index: 1;
@@ -163,3 +165,13 @@ button#import {
     border-radius: 10px;
 
 }
+
+button.switch {
+    background-color:rgba(255,255,255,0.8);
+    color: black;
+  }
+  
+  button.switch.clicked {
+    background-color: #d1a841 ;
+  }
+  

@@ -429,3 +429,16 @@ function deleteElement(){
 };
 
 document.addEventListener('DOMContentLoaded',createMap);
+
+document.addEventListener("DOMContentLoaded", function() {
+  const buttons = document.querySelectorAll("button.switch");
+  buttons.forEach(function(button) {
+    button.addEventListener("click", function() {
+      buttons.forEach(function(button) {
+        button.classList.remove("clicked");
+      });
+      this.classList.add("clicked");
+      // Add code here to show the corresponding dataset on the map
+    });
+  });
+});
